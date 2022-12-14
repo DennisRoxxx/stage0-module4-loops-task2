@@ -7,7 +7,7 @@ public class PrimeNumbers {
         int divisibleCount;
 
         if (printToInclusive == 0){
-            System.out.println("");
+            System.out.println();
         }
         else {
 
