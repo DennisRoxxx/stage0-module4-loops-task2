@@ -4,6 +4,6 @@ public class WordsBuilder {
     public void buildPhrase(char... chars) {
 
         
-        System.out.println(chars);
+        System.out.printf(Arrays.toString(chars));
     }
 }
