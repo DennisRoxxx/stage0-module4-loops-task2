@@ -4,7 +4,11 @@ public class Multiplication {
     public void printMultiplied(int multiplyByAndToInclusive) {
         int counter = 0;
 
-        if (multiplyByAndToInclusive < 0) {
+        if (multiplyByAndToInclusive == 0) {
+            System.out.println();
+        }
+
+        else if (multiplyByAndToInclusive < 0) {
             int factorial = multiplyByAndToInclusive * (-1);
 
             while (counter <= factorial) {
@@ -21,3 +25,4 @@ public class Multiplication {
         }
     }
 }
+
